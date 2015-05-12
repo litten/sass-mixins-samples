@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+// Typography
+// Font, color for body text, headings
+
+$colora0:#a0a0a0;
+$color85:#858585;
+
+$font-family-base:"Hiragino Sans GB", "Microsoft Yahei", arial,\5b8b\4f53, "Helvetica Neue", Helvetica, STHeiTi, sans-serif !default;
+$font-default-size: 12px;
+$font-size-base: 14px !default;
+// text color
+$color-title: #333333 !default;
+$color-subtitle: #666666 !default;
+$color-weak: #999999 !default;
+// link color
+$color-link: #039ae3 !default;
+$color-link-hover: #62b4f7 !default;
+$color-link-active: #006eb1 !default;
+// table link color
+$color-table-link: #3672a2 !default;
+$color-table-link-hover: #0d80d7 !default;
+$color-table-link-active: #2f658f !default;
+// other
+$color-error: #e80808 !default;
+$color-warning: #e85308 !default;
+
+// link transtion
+$link-transtion: .3s;
+
+// Buttons
+$btn-font-size: 14px !default;
+$btn-border-radius: 2px !default;
+
+// btn-name,bg-color,text-color,bg-color-hover,bg-color-active
+$btns:  (default #04acf7 #ffffff #04bbf7 #038dcc) 
+		(primary #ff9a00 #fff #ffad2f #ed7b00)
+		(weak #f3f3f3 #202020 #fff #dcdcdc) !default;
+
+
+// Form
+$input-border-color: #dedede;
+$input-border-color-hover: #9a9a9a;
+$input-padding: 10px 13px 7px;
+$input-height: 20px;
+$input-color: #545454;
+$input-border-radius: 1px;
+$input-font-size: $font-size-base;
+
+$primary:                    #0078E7 !default;
+
+
+$color-text:                 #333 !default;
+$color-border:               #dbdbdb !default;
+
+
+// z-index
+//-----------------------------------------------------	
+$z-index-dropdown:            1000 !default;
+$z-index-fixedTopbar:         1200 !default;
+$z-index-tooltip:             1400 !default;
+$z-index-alert:               1600 !default;
+$z-index-modal:               2000 !default;
